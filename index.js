@@ -15,7 +15,7 @@ let items = [
 
 // Welcome route
 app.get('/', (req, res) => {
-  res.json({ message: "Bienvenue sur l'API Node.js déployée sur Azure, liste des items sur: https://api-demo-azure-groupe9-cwe6a7fvfzgabgf4.swedencentral-01.azurewebsites.net/api/items" });
+  res.json({ message: "Bienvenue sur l'API Node.js déployée sur Azure, liste des items sur: https://api-azure-demo-azure-groupe8-arfvhyf6gyfaabhr.swedencentral-01.azurewebsites.net/api/items" });
 });
 
 // GET : récupérer tous les items
