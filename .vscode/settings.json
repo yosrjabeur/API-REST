@@ -1,3 +1,8 @@
 {
-    "git.ignoreLimitWarning": true
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/448b8216-a32a-48fd-96ac-a5e21a2db976/resourceGroups/api-demo-azure-groupe9/providers/Microsoft.Web/sites/api-demo-azure-groupe9",
+    "appService.deploySubpath": "."
 }
